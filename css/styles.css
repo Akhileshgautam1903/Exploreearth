@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+li {
+  list-style: none;
+  padding-left: 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title section */
+
+#title {
+  color: #1a508b;
+  background-color: #1a508b;
+  padding: 0 0 5%;
+}
+
+#title .container-fluid {
+  padding: 3% 10%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  font-family: "Boogaloo", cursive;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.main-text {
+  font-family: "Boogaloo", cursive;
+  padding: 7% 15%;
+  padding-bottom: 300px;
+  width: 90%;
+  margin: auto;
+  background-image: url("bg-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.hero-button {
+  margin: 5% 0;
+  border: 1px solid #1a508b;
+  color: #1a508b;
+  transition-duration: 200ms;
+  font-size: 1.2rem;
+}
+
+.hero-button:hover {
+  background-color: #1a508b;
+  color: #fff;
+}
+
+/* Feature section */
+#features {
+  color: #1a508b;
+  font-family: "Boogaloo", cursive;
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icon {
+  color: #1a508b;
+  margin-bottom: 1rem;
+}
+
+.feature-img {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+/* Hot tours */
+#tours {
+  color: #fff;
+  background-color: #1a508b;
+  text-align: left;
+}
+
+.tour-heading {
+  font-family: "Boogaloo", cursive;
+}
+
+.image {
+  width: 100%;
+  margin: 0;
+  border: 3px solid #fff;
+  border-radius: 2%;
+}
+
+/* Testimonials */
+#testimonial {
+  color: #1a508b;
+}
+
+.testimonial-heading {
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+  font-family: "Boogaloo", cursive;
+}
+
+.testimonial-text {
+  padding: 5%;
+}
+
+.card {
+  border-color: #1a508b;
+  transition-duration: 300ms;
+}
+
+.card:hover {
+  background-color: #1a508b;
+  border-color: #fff;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 30%;
+  margin: 1.5rem;
+}
+
+/* Call to action */
+#cta {
+  background-color: #1a508b;
+  color: #fff;
+  text-align: left;
+}
+
+.cta-heading {
+  margin-bottom: 3%;
+  font-size: 3rem;
+  font-family: "Boogaloo", cursive;
+}
+
+/* Social Links */
+#footer {
+  color: #1a508b;
+}
+
+.row {
+  text-align: left;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 3%;
+}
+
+@media (max-width: 1028px) {
+  .hide {
+    display: none;
+  }
+
+  .main-text {
+    background-image: none;
+    color: #fff;
+    padding: 0;
+    text-align: left;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .cta-heading {
+    font-size: 2rem;
+  }
+}

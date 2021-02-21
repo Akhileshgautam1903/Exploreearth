@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Earth</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome  -->
+    <script src="https://kit.fontawesome.com/664fe6d04e.js" crossorigin="anonymous"></script>
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <section id="title">
+        <div class="container-fluid">
+            <!-- Nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="">Explore earth</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cta" >Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tours">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact us</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Title -->
+            <div class="main-text">
+                <h1>Travel to your favorite destination this summer.</h1>
+                <h3>Go where you feel more alive.</h3>
+                <a href="#cta" class="btn hero-button" role="button">GET IN TOUCH</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features -->
+
+    <section id="features">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <img src="./images/travel.png" alt="tours" class="feature-img">
+                    <h3>Wide variety of tours</h3>
+                </div>
+                <div class="feature-box col-lg-4">
+                    <!-- <i class="icon fas fa-headset fa-3x"></i> -->
+                    <img src="./images/support.png" alt="tours" class="feature-img">
+                    <h3>24/7 support</h3>
+                </div>
+                <div class="feature-box col-lg-4">
+                    <!-- <i class="icon fas fa-wallet fa-3x"></i> -->
+                    <img src="./images/wallet.png" alt="tours" class="feature-img">
+                    <h3>Best price guarantee</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hot Tours -->
+
+    <section id="tours">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./images/India.jpg" alt="London" class="image mb-3">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h2 class="tour-heading">Taj Mahal, India</h2>
+                        <p>
+                            Taj Mahal is one of the ancient monument of India. It is also one of the seven wonders
+                            of the world. It was made by Shahjahan in the memory of his wife Noor jahan.
+                            Toursits from all over the world visit her to see the beauty of Taj Mahal.
+                        </p>
+                        <button type="button" class="btn btn-success mb-3">LEARN MORE</button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./images/London.jpg" alt="London" class="image mb-3">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h2 class="tour-heading">London bridge, United Kingdom</h2>
+                        <p>
+                            London Bridge is built across the river Thames. It is hot tourist attraction among 
+                            the visitors of United Kingdom. Explore the historic Engine Rooms and discover the 
+                            unsung heroes who kept an icon in motion.
+                        </p>
+                        <button type="button" class="btn btn-success mb-3">LEARN MORE</button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./images/Bali.jpg" alt="London" class="image mb-3">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h2 class="tour-heading">Bali, Indonasia.</h2>
+                        <p>
+                            Bali is popular and there is a good reason why. The island is beautiful, the beaches 
+                            are perfect for sunbathing and surfing, hiking is great, the locals on Bali are kind, 
+                            and Bali is affordable.  
+                        </p>
+                        <button type="button" class="btn btn-success mb-3">LEARN MORE</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonial">
+        <div class="container-fluid">
+            <h3 class="testimonial-heading">Testimonials</h3>
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-title">
+                        <img src="./images/Person1.png" alt="" class="testimonial-img">
+                        <h4>Louis F. Martin</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="testimonial-text">
+                            "I would like to thank Explore earth for the extraordinary experince of my vacation.
+                            My family would never forget that experience for the rest of our lives."
+                        </p>
+                    </div>
+                </div>
+                <div class="card hide">
+                    <div class="card-title">
+                        <img src="./images/Person2.png" alt="" class="testimonial-img">
+                        <h4>Stephan Gottschalk</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="testimonial-text">
+                            "I am not a big fan of travelling because of the complications it includes. But with 
+                            Explore earth I had no such problems, I would definetly recommend it."
+                        </p>
+                    </div>
+                </div>
+                <div class="card hide">
+                    <div class="card-title">
+                        <img src="./images/Person3.png" alt="" class="testimonial-img">
+                        <h4>Alexandra Sewell</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="testimonial-text">
+                            "I had an experience of a lifetime. Explore earth genuinly care about their customers
+                            and treats them very well. The whole experience was very smooth. I was not going on 
+                            vacation much earlier but now that Explore earth is there, I don't need to worry much."
+                        </p>
+                    </div>
+                </div>
+                <div class="card hide">
+                    <div class="card-title">
+                        <img src="./images/Person6.png" alt="" class="testimonial-img">
+                        <h4>Bethany Cosh</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="testimonial-text">
+                            "Me and my freinds have gone to a lot of vacations and tried bunch of services
+                            but the service Explore earth provides is just amazing. I would definetly recommend 
+                            all to try it once."
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <img src="./images/Person5.png" alt="" class="testimonial-img">
+                        <h4>Nancy R. Parker</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="testimonial-text">
+                            "Explore earth is just amazing. I had a very good time on my vacation. 5 stars from me."
+                        </p>
+                    </div>
+                </div>
+                <div class="card hide">
+                    <div class="card-title">
+                        <img src="./images/Person4.png" alt="" class="testimonial-img">
+                        <h4>Dexter Austin</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="testimonial-text">
+                            "Earlier going on a vacation would be a nightmare for me and my family because we 
+                            didn't have a great agency helping us, but now Explore earth made it so much easy for
+                            me and now I have more time to spend with my family on our vacation than to worry about 
+                            other things. All thanks to Explore earh."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Call to action -->
+
+    <section id="cta">
+        <div class="container-fluid">
+            <h3 class="cta-heading">Get in touch with us</h3>
+            <form>
+                <div class="row">
+                    <div class="col-md-8">
+                        <input class="form-control form-control-lg mb-3" type="email" placeholder="eg.john@example.com">
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-success btn-lg ">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3>Our services</h3>
+                    <ul>
+                        <li><a href="#">Travel packeges</a></li>
+                        <li><a href="#">Best hotel bookings</a></li>
+                        <li><a href="#">Luxury services</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Our Travel Pakages</h3>
+                    <ul>
+                        <li><a href="#">Sri Lanka</a></li>
+                        <li><a href="#">Bali</a></li>
+                        <li><a href="#">Agra</a></li>
+                        <li><a href="#">Dubai</a></li>
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">Egypt</a></li>
+                        <li><a href="#">Panama Beach</a></li>
+                        <li><a href="#">Bahamas</a></li>
+                        <li><a href="#">Andaman and Nicobar</a></li>
+                        <li><a href="#">Tokyo</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Our contacts</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-phone-alt mr-3"></i>202-555-0130</a></li>
+                        <li><a href="#"><i class="fas fa-envelope mr-3"></i>contactus@travel.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="twitter.com"><i class="fab fa-twitter fa-2x social-icons"></i></a>
+            <a href="instagram.com"><i class="fab fa-instagram fa-2x social-icons"></i></a>
+            <a href="facebook.com"><i class="fab fa-facebook-f fa-2x social-icons"></i></a>
+            <p>© Copyright 2021 Explore earth</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
